@@ -1,6 +1,6 @@
 class Button():
-    def __init__(self, tittle_text, x, y, appearance):
-        self.tittle = tittle_text
+    def __init__(self, title_text, x, y, appearance):
+        self.tittle = title_text
         self.x = x
         self.y = y
         self.appearance = True
@@ -12,7 +12,7 @@ class Button():
 
     def print_info(self):
         print("Дані про віджет:")
-        print(self.tittle, self.x, self.y, self.appearance)
+        print(self.title, self.x, self.y, self.appearance)
 
 button_1 = Button("ok", 100, 100)
 button_1.print_info()
